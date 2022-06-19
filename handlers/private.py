@@ -9,25 +9,12 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://images.app.goo.gl/MTLXTSDCA4MLHScP7",
-                caption=(f"""● **𝖬𝖾𝗋𝗁𝖺𝖻𝖺** {message.from_user.mention} \n\n● **𝖡𝖾𝗇** {bot} !\n\n● **𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍𝗅𝖾𝗋𝖽𝖾 müzik 𝖢𝖺𝗅𝖺𝖻𝗂𝗅𝖾𝗇 𝖡𝗈𝗍𝗎𝗆 . . !** \n\n● **𝖡𝖺𝗇 𝖸𝖾𝗍𝗄𝗂𝗌𝗂𝗓, 𝖲𝖾𝗌 𝖸𝗈𝗇𝖾𝗍𝗂𝗆 𝖸𝖾𝗍𝗄𝗂𝗌𝗂 𝗏𝖾𝗋𝗂𝗉 𝖠𝗌𝗂𝗌𝗍𝖺𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾𝗒𝗂𝗇 . . !**"""),
+                caption=(f"""**Hello** {message.from_user.mention} \n\n**I'm a Security Bot I can protect your group from any kind of damage !** \n\n**Add me to the Group Make it an Admin and Then use the /reload Command !** \n\n **Commands** : \n- /ActiveBot =  The security measure is activated \n- /NegactiveBot = All measures disabled """),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 𝖡𝖾𝗇𝗂 𝖦𝗋𝗎𝖻𝖺 𝖤𝗄𝗅𝖾 🎉", url=f"https://t.me/StarMuzikBot?startgroup=true"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "📚 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋" , callback_data= "herkes"
-                    ),
-                    InlineKeyboardButton(
-                        "🇹🇷 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/StarBotKanal"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🧑🏻‍💻 ɢɪᴛʜᴜʙ ᴋᴀʏɴᴀᴋ ᴋᴏᴅᴜ 🧑🏻‍💻", url="https://github.com/MehmetAtes21/music"
+                        "➕ Add Me to Group ➕", url=f"https://t.me/ProtectrontBot?startgroup=true"
                     )
                 ]
                 
