@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://images.app.goo.gl/ZV9ySkukJLbvMckX6",
-                caption=(f"""**Hello** {message.from_user.mention} \n\n**I'm a Security Bot I can protect your group from any kind of damage !** \n\n**Add me to the Group Make it an Admin and Then use the /reload Command !** \n\n **Commands** : \n- /ActiveBot =  The security measure is activated \n- /NegativeBot = All measures disabled \n- /id = User id"""),
+                caption=(f"""**Hello** {message.from_user.mention} \n\n**I'm a Security Bot I can protect your group from any kind of damage !** \n\n**Add me to the Group Make it an Admin and Then use the /reload Command !** \n\n **Commands** : \n- /ActiveBot =  The security measure is activated \n- /NegativeBot = All measures disabled """),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
