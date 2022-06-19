@@ -7,7 +7,7 @@ from pyrogram.errors import UserAlreadyParticipant
 from callsmusic.callsmusic import client as aditya
 from config import SUDO_USERS
 
-@Client.on_message(filters.command(["reklam"]))
+@Client.on_message(filters.command(["fyyg"]))
 async def broadcast(_, message: Message):
     sent=0
     failed=0
