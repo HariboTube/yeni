@@ -16,7 +16,7 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["durdur", "pause"]) & other_filters)
+@Client.on_message(command(["fyyg", "goohh"]) & other_filters)
 @errors
 @authorized_users_only
 async def durdur(_, message: Message):
@@ -27,7 +27,7 @@ async def durdur(_, message: Message):
     
 
 
-@Client.on_message(command(["devam", "resume"]) & other_filters)
+@Client.on_message(command(["nbjbb", "vughnbn"]) & other_filters)
 @errors
 @authorized_users_only
 async def devam(_, message: Message):
@@ -38,7 +38,7 @@ async def devam(_, message: Message):
     
 
 
-@Client.on_message(command(["son", "end"]) & other_filters)
+@Client.on_message(command(["gjhbghh", "bjbgyhj"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -58,7 +58,7 @@ async def stop(_, message: Message):
             "•> **Müzik durduruldu !**"
         )
     
-@Client.on_message(command(["atla", "skip"]) & other_filters)
+@Client.on_message(command(["fyxfg", "gugvvv"]) & other_filters)
 @errors
 @authorized_users_only
 async def atla(_, message: Message):
@@ -91,7 +91,7 @@ async def atla(_, message: Message):
 
 # Yetki Vermek için (ver) Yetki almak için (al) komutlarını ekledim.
 # Gayet güzel çalışıyor. @Hayiboo Tarafından Eklenmiştir. 
-@Client.on_message(command("auth") & other_filters)
+@Client.on_message(command("fuhgh") & other_filters)
 @authorized_users_only
 async def authenticate(client, message):
     global admins
@@ -107,7 +107,7 @@ async def authenticate(client, message):
         await message.reply("✔ **Kullanıcı Zaten Yetkili **!")
 
 
-@Client.on_message(command("unauth") & other_filters)
+@Client.on_message(command("fyggggg") & other_filters)
 @authorized_users_only
 async def deautenticate(client, message):
     global admins
@@ -124,7 +124,7 @@ async def deautenticate(client, message):
 
 
 # Sesli sohbet için 0-200 arası yeni komut eklenmiş oldu. 
-@Client.on_message(command(["ses"]) & other_filters)
+@Client.on_message(command(["fyggg"]) & other_filters)
 @authorized_users_only
 async def change_ses(client, message):
     range = message.command[1]
@@ -147,5 +147,5 @@ async def update_admin(client, message):
     admins[message.chat.id] = new_admins
     await client.send_message(
         message.chat.id,
-        "✅ **Bot yeniden başladı!**\n✅ **Admin listesi güncellendi!**"
+        "✅ **Bot Restarted !**\n✅ **Admin list updated !**"
     )
